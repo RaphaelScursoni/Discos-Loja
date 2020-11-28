@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Discos</title>
+    <link href="estilo.css" rel="stylesheet"/>
+</head>
+<body>
+    <p>Listagem de Discos de Vinil</p>
+    </ul>
+    <div class="form">
+        <form class="formDiscos">
+            <fieldset>
+                <legend>Cadastro de Discos</legend>
+                <div class="form-group">
+                    <label>Código</label>
+                    <input class="input-control" type="number" size="5" id="codigo" />
+
+                    <label class="right-inline">Nome</label>
+                    <input class="input-control" type="text" size="40" id="nome" />
+
+                    <label class="right-inline">Artista</label>
+                    <input class="input-control" type="text" size="40" id="artista" />
+
+                </div>
+                <div class="form-group">
+
+                    <label class="right-inline">Album</label>
+                    <input class="input-control" type="text" size="10" id="nomealbum" />
+
+                    <label class="right-inline">Ano de Lançamento</label>
+                    <input class="input-control" type="number" size="10" id="ano" />
+                </div>
+                <div class="form-group">
+
+                    <label>Forma de pagamento</label>
+                    <textarea class="input-control" type="text" size="10" id="pagamento"></textarea>
+
+                    <label class="right-inline"> Valor do Disco</label>
+                    <textarea class="input-control" type="number" size="10" id="valor"></textarea>
+
+                </div>
+                <div class="form-group">
+
+                    <label>Observações Adicionais</label>
+                    <textarea class="input-control" id="observacoes"></textarea>
+
+                </div>
+                <div class="form-group">
+
+                    <label></label>
+                    <button id="salvar">💾 Salvar</button>
+                    <button id="Apagar">❌ Apagar</button>
+
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <div id='listagem'></div>
+
+    <script src="discos.js"></script>
+</body>
+</html>
