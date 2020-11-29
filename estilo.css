@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 
+body{
+  background-image: url(img/1.jpg);
+}
+
 *{
     font-family: 'Patua One', sans-serif;
 }
@@ -7,6 +11,7 @@
 p{
 text-align: center;
 font-size: 60px;
+background: rgba(255, 255, 255, 0.164);
 }
 
 button{
@@ -26,6 +31,7 @@ button{
 caption{
   font-size: 45px;
   padding: 30px;
+  background-color: rgb(182, 246, 255);
 }
 
 .form{
